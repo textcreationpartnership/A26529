@@ -1,0 +1,850 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Æsop at Epsom, or, A few select fables in verse by a cit.</title>
+            <author>Cit.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1698</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 24 KB of XML-encoded text transcribed from 18 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A26529</idno>
+            <idno type="STC">Wing A736</idno>
+            <idno type="STC">ESTC R21482</idno>
+            <idno type="EEBO-CITATION">12616946</idno>
+            <idno type="OCLC">ocm 12616946</idno>
+            <idno type="VID">64422</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A26529)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 64422)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 339:29)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Æsop at Epsom, or, A few select fables in verse by a cit.</title>
+                  <author>Cit.</author>
+               </titleStmt>
+               <extent>[7], 29 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for, and sold by John Nut ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1698.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-05</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-08</date>
+            <label>John Pas</label>Sampled and proofread</change>
+         <change>
+            <date>2013-08</date>
+            <label>John Pas</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:64422:1"/>
+            <pb facs="tcp:64422:1" rendition="simple:additions"/>
+            <p>AESOP AT <hi>Epſom:</hi> Or, a few Select Fables In VERSE.</p>
+            <p>By a Cit.</p>
+            <p>
+               <hi>London:</hi> Printed for, and Sold by <hi>John Nut,</hi> near Stationers-Hall, 1698.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:64422:2"/>
+            <pb facs="tcp:64422:2"/>
+            <head>To his Excellency <hi>Charles Mon<g ref="char:EOLhyphen"/>tague</hi> Eſq; one of the Lord Ju<g ref="char:EOLhyphen"/>ſtices for the Adminiſtration of publick Affairs during the <hi>Kings</hi> abſence, firſt Lord Commiſſio<g ref="char:EOLhyphen"/>ner of the Treaſury, Chancellor of the Exchequer, and one of His Majeſty's moſt Honourable Privy Council.</head>
+            <opener>
+               <salute>SIR,</salute>
+            </opener>
+            <p>THO' a Preſent of <hi>Fables</hi> to Your Excellency the in<g ref="char:EOLhyphen"/>imitable Author of the <hi>COUNTRY MOUSE,</hi> and <hi>CITY-MOUSE,</hi> may at this time ſeem im<g ref="char:EOLhyphen"/>proper: Yet a Preſent of <hi>Loyalty</hi> to
+<pb facs="tcp:64422:3"/>the ſame Government, which You have been ſo Studious and ſucceſsful in the preſervation of, cannot but carry its Acceptance with it. That Li<g ref="char:EOLhyphen"/>berty which Your <hi>Excellency</hi> gave the World ſo ſweet a t<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſt of in Your moſt incomparable <hi>Fable,</hi> and which afterwards You was ſo inſtrumental in continuing to us, is in part the Sub<g ref="char:EOLhyphen"/>ject of <hi>theſe.</hi> And as <hi>Aeſop at Tun<g ref="char:EOLhyphen"/>bridge,</hi> by <hi>feign'd</hi> and <hi>ſurreptiti<g ref="char:EOLhyphen"/>ous</hi> Fables, ſeems to bewail the change of the late Gevernment, ſo <hi>Aeſop at Epſom</hi> with <hi>real</hi> and <hi>genuine</hi> r<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>yoy<g ref="char:EOLhyphen"/>ceth at the Eſtabliſhment of this. Sir, Your Excellency's great Example has ſuch a prevailing influence, as to make the meaneſt Subject ſolicitous for the Publick Good, and to ſee that <hi>Revo<g ref="char:EOLhyphen"/>lution</hi> become the ſubject of <hi>Satyr,</hi>
+               <pb facs="tcp:64422:3"/>which has giv'n ſuch opportunities for <hi>Panegyrick,</hi> (and whoſe <hi>Royal Au<g ref="char:EOLhyphen"/>thor</hi> has had ſuch immortal Commen<g ref="char:EOLhyphen"/>dations from Your <hi>Excellency's</hi> the beſt of Pens) could not but add very much to my Reſentments in the follow<g ref="char:EOLhyphen"/>ing Papers. But, Sir, to give no fur<g ref="char:EOLhyphen"/>ther interruption to a Gentleman whoſe very <hi>Leiſure</hi> is employ'd for the pub<g ref="char:EOLhyphen"/>lick Safety, I ſhall not encroach upon Your time any further than to beg Your Acceptance of this <hi>poor Entertain<g ref="char:EOLhyphen"/>ment,</hi> which ſhall make me add to my Endeavours of approving my ſelf in a more ſubſtantial way,</p>
+            <closer>
+               <salute>Sir,</salute> 
+               <signed>Your Excellency's moſt Obedient Servant.</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:64422:4"/>
+            <pb n="1" facs="tcp:64422:4"/>
+            <head>AESOP AT Epſom.</head>
+            <div n="1" type="fable">
+               <head>
+                  <hi>FAB.</hi> I. Of the <hi>Fox,</hi> and the <hi>Stork.</hi>
+               </head>
+               <lg>
+                  <l>A Subtil Fox well practis'd in deſign,</l>
+                  <l>Invites a Stork, that He with him will dine,</l>
+                  <l>A match, ſays Stork, Sir Reynard it's agreed,</l>
+                  <l>And home He goes, and much reſolv'd to feed,</l>
+                  <pb n="2" facs="tcp:64422:5"/>
+                  <l>Nothing will ſerve, but that <hi>He's ſure the Beaſt</hi>
+                  </l>
+                  <l>
+                     <hi>Will ſoon repent He'd brought Him for a Gueſt,</hi>
+                  </l>
+                  <l>
+                     <hi>His Stomach was ſo empty, and ſo great,</hi>
+                  </l>
+                  <l>
+                     <hi>Zounds! He himſelf ſhould finiſh all the treat.</hi>
+                  </l>
+                  <l>Fox ſmiles, and in his <hi>Cubs</hi> the Dinner bring,</l>
+                  <l>
+                     <hi>Soop,</hi> and <hi>Pottage,</hi> a Banquet for a King.</l>
+                  <l>Fall on, my gueſt, ſaid Fox, and down he pour's</l>
+                  <l>The liquid Feaſt which He himſelf devours.</l>
+                  <l>
+                     <hi>Dear Stork,</hi> He crys, <hi>'Slife Child, why doſt not Peck,</hi>
+                  </l>
+                  <l>The Stork he Stretches, and extends his neck.</l>
+                  <l>But nothing can get up within His Bill,</l>
+                  <l>Whilſt Reynard licks it up, and Eats his fill;</l>
+                  <l>At length perceiving how he had been ſerv'd,</l>
+                  <l>He homeward Stalks, or He muſt elſe have Starv'd,</l>
+                  <l>But Mindfull of the Fox his empty Treat,</l>
+                  <l>Sends to Invite Him to a diſh of Meat.</l>
+                  <l>The Fox not thinking Storks had had the ſenſe</l>
+                  <l>To mind affronts, or take the leaſt offence,</l>
+                  <pb n="3" facs="tcp:64422:5"/>
+                  <l>Took him at's word, and ſaid, Sir Stork content,</l>
+                  <l>
+                     <hi>I'll ſee what Houſe you keep,</hi> and Home wi'him <hi>went.</hi>
+                  </l>
+                  <l>The Table Spread, and every thing compleat,</l>
+                  <l>That might put Fox in mind He was to eat:</l>
+                  <l>Two ſervant Storks upon the Table plac'd</l>
+                  <l>A Narrow long-neck'd Glaſs which held the Feaſt;</l>
+                  <l>Lampreys and Eels within it might be ſeen,</l>
+                  <l>The Glaſs was ſo tranſparent and ſo clean,</l>
+                  <l>When Stork, <hi>Sans ceremony, Sir, begin,</hi>
+                  </l>
+                  <l>
+                     <hi>You ſee your entertainment here within,</hi>
+                  </l>
+                  <l>
+                     <hi>I'll ſhew the way;</hi> and in his Beak he thruſt</l>
+                  <l>Whil'ſt Reynard try'd in vain, and trying curs'd.</l>
+                  <l>
+                     <hi>Lord,</hi> ſaid the Stork, <hi>are you a Beaſt of thought,</hi>
+                  </l>
+                  <l>
+                     <hi>And yet no Broth, or Soop, or Pottage brought?</hi>
+                  </l>
+                  <l>
+                     <hi>I'd e'en fetch ſome, and fill the Veſſel up,</hi>
+                  </l>
+                  <l>
+                     <hi>You then, although You could not eat, might ſup.</hi>
+                  </l>
+               </lg>
+               <pb n="4" facs="tcp:64422:6"/>
+               <lg>
+                  <head>MORAL.</head>
+                  <l>The Application ſoon is made</l>
+                  <l>By any that's a Reader,</l>
+                  <l>One in his turn the Fool has play'd,</l>
+                  <l>And whoſe turn's now conſider:</l>
+                  <l>The <hi>Tunbridge Aeſop</hi> firſt has given</l>
+                  <l>The Town a Diſh of Meat,</l>
+                  <l>And faith, to make the Talli'es even,</l>
+                  <l>
+                     <hi>Epſom</hi> ſhould alſo treat.</l>
+               </lg>
+            </div>
+            <div n="2" type="fable">
+               <head>
+                  <hi>FAB.</hi> II. Of the <hi>Lamb</hi> and the <hi>Wolf.</hi>
+               </head>
+               <lg>
+                  <l>A Wolf as He look'd out for prey,</l>
+                  <l>And went in ſearch of food,</l>
+                  <l>Perceiv'd a Lamb and Goat in's way</l>
+                  <l>Come jogging on the Road.</l>
+                  <pb n="5" facs="tcp:64422:6"/>
+                  <l>Mutton He lov'd, but did not dare</l>
+                  <l>Faſten on that He Spy'd,</l>
+                  <l>Whilſt <hi>Hircus</hi> with his horns was there,</l>
+                  <l>And thus to part them try'd.</l>
+                  <l>
+                     <hi>Home from this beaſt, for ſhame, Sir Lamb,</hi>
+                  </l>
+                  <l>
+                     <hi>It greives my very Soul,</hi>
+                  </l>
+                  <l>
+                     <hi>To See You leave a Noble Dam,</hi>
+                  </l>
+                  <l>
+                     <hi>And walk with Goat ſo foul.</hi>
+                  </l>
+                  <l>A <hi>Goat! fye on't, the very worſt</hi>
+                  </l>
+                  <l>
+                     <hi>Of all the Brutal Race;</hi>
+                  </l>
+                  <l>
+                     <hi>A Stinking Animal and curs'd,</hi>
+                  </l>
+                  <l>
+                     <hi>The woods, and fields diſgrace.</hi>
+                  </l>
+                  <l>
+                     <hi>Heark you,</hi> ſaid Lamb, <hi>I plainly know</hi>
+                  </l>
+                  <l>
+                     <hi>Whom You Your tricks would put on,</hi>
+                  </l>
+                  <l>
+                     <hi>And what You mean by gaping ſo,</hi>
+                  </l>
+                  <l>
+                     <hi>Poor Wolf! he wants ſome Mutton.</hi>
+                  </l>
+                  <l>
+                     <hi>I thank you for th' Advice you lend,</hi>
+                  </l>
+                  <l>
+                     <hi>And wonder not you ſhou'd</hi>
+                  </l>
+                  <pb n="6" facs="tcp:64422:7"/>
+                  <l>
+                     <hi>Like me much better than my friend,</hi>
+                  </l>
+                  <l>
+                     <hi>Since I am better Food.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <head>MORAL.</head>
+                  <l>So when the Wars broke out at firſt,</l>
+                  <l>And France prepar'd for fighting,</l>
+                  <l>Lord! how her Mighty Monarch curs'd</l>
+                  <l>The Dutch and us uniting!</l>
+                  <l>
+                     <hi>Per Dieu, ſaid he, the Britiſh Race</hi>
+                  </l>
+                  <l>
+                     <hi>Of Heroes once the chief</hi>
+                  </l>
+                  <l>
+                     <hi>Joyn with a Land ſo curſed Baſe,</hi>
+                  </l>
+                  <l>
+                     <hi>And ask of them relief!</hi>
+                  </l>
+                  <l>But had his aim ſucceſsful been</l>
+                  <l>And us from them remov'd,</l>
+                  <l>We then the ſad Effects had ſeen,</l>
+                  <l>And Fables moral prov'd.</l>
+               </lg>
+            </div>
+            <div n="3" type="fable">
+               <pb n="7" facs="tcp:64422:7"/>
+               <head>
+                  <hi>FAB.</hi> III. Of the <hi>Sun</hi> and the <hi>North-wind.</hi>
+               </head>
+               <lg>
+                  <l>BEtwixt the Sun and Wind, aroſe</l>
+                  <l>A quarrel like to end in blows</l>
+                  <l>If both of 'm had not rather choſe</l>
+                  <l>A fitting Mediator:</l>
+                  <l>It ſeems that this contention grew</l>
+                  <l>From which was Strongeſt of the two</l>
+                  <l>And down their VVagers ſtrait they threw</l>
+                  <l>Thus to decide the matter.</l>
+                  <l>By chance a Traveller came by,</l>
+                  <l>And both with one united cry,</l>
+                  <l>
+                     <hi>On Him let us our forces try</hi>
+                  </l>
+                  <l>
+                     <hi>To finiſh the diſpute:</hi>
+                  </l>
+                  <l>He that the firſt a way could find</l>
+                  <l>To make him leave his Cloak behind</l>
+                  <pb n="8" facs="tcp:64422:8"/>
+                  <l>Should win; <hi>it's done, agreed,</hi> ſaid Wind,</l>
+                  <l>Said Sun, <hi>content, I'll do't.</hi>
+                  </l>
+                  <l>VVhen Boreas ſummon'd every blaſt,</l>
+                  <l>And at Him all his fury caſt,</l>
+                  <l>But flinging round his Cloak, he paſs'd</l>
+                  <l>And forwarded his journey:</l>
+                  <l>Sol ſmiles, and gath'ring all his Rays,</l>
+                  <l>Sure of the conqueſt and the Bays,</l>
+                  <l>I'll make You quit your Cloak, he ſays,</l>
+                  <l>Or elſe by God I'll burn ye.</l>
+                  <l>Straight Paſſinger began to ſweary</l>
+                  <l>Enrag'd and troubled with the heat,</l>
+                  <l>And in a moſt confounded Pett,</l>
+                  <l>At laſt flung off the Garment</l>
+                  <l>
+                     <hi>Boreas,</hi> ſaid Sol, <hi>See yonder Cloak,</hi>
+                  </l>
+                  <l>
+                     <hi>The Wagers Won and Thou art broke,</hi>
+                  </l>
+                  <l>
+                     <hi>And up in hast The Stakes He took,</hi>
+                  </l>
+                  <l>And that was all the harm in't.</l>
+               </lg>
+               <pb n="9" facs="tcp:64422:8"/>
+               <lg>
+                  <head>MORAL.</head>
+                  <l>Thus bluſtring Kings like Boreas often fail;</l>
+                  <l>Whilſt others like the Conqu'ring Sun prevail:</l>
+                  <l>Numbers may fright, and diſmal fancies raiſe,</l>
+                  <l>But what can Numbers in improper ways?</l>
+                  <l>Whilſt at Compeign Extended armies Shine,</l>
+                  <l>And France her infant Princes fight, and dine,</l>
+                  <l>Whilſt Boufflers treats the Ladies with a Song,</l>
+                  <l>And Duke de Berry learns the Spaniſh Tongue,</l>
+                  <l>A Prince at Cell, who Seemingly appears</l>
+                  <l>Thoughtleſs of Arms ſince now releas'd from <hi>Wars:</hi>
+                  </l>
+                  <l>Amid'ſt his Sports, ſhall fit Expedients find</l>
+                  <l>To cheat the dangers by their Arms deſign'd,</l>
+                  <l>And one poor Hunting Match perhaps may break</l>
+                  <l>The Meaſures which their fam'd Encampments take.</l>
+               </lg>
+            </div>
+            <div n="4" type="fable">
+               <pb n="10" facs="tcp:64422:9"/>
+               <head>
+                  <hi>FAB.</hi> IV. Of the <hi>Trumpeter.</hi>
+               </head>
+               <lg>
+                  <l>A Trumpeter in time of VVar</l>
+                  <l>VVas in the Battle taken;</l>
+                  <l>And Dead almoſt with very fear,</l>
+                  <l>Try'd thus to ſave his Bacon.</l>
+                  <l>
+                     <hi>Dear Sirs, if guiltleſs Actions ſave,</hi>
+                  </l>
+                  <l>
+                     <hi>Or Innocence ſecures,</hi>
+                  </l>
+                  <l>
+                     <hi>From you the grant of Life I crave,</hi>
+                  </l>
+                  <l>
+                     <hi>Who ne'er endanger'd yours.</hi>
+                  </l>
+                  <l>
+                     <hi>Nor Sword, nor Muſquet have I born,</hi>
+                  </l>
+                  <l>
+                     <hi>Or any other Weapon worn</hi>
+                  </l>
+                  <l>
+                     <hi>Than what is in my hand:</hi>
+                  </l>
+                  <l>
+                     <hi>This Trumpet never gave a wound,</hi>
+                  </l>
+                  <l>
+                     <hi>Or utter'd any thing but empty ſound,</hi>
+                  </l>
+                  <l>
+                     <hi>And that too by command.</hi>
+                  </l>
+                  <pb n="11" facs="tcp:64422:9"/>
+                  <l>
+                     <hi>Off with the Dog, and fetch the Rope,</hi>
+                  </l>
+                  <l>Said Enemy, <hi>and tye Him up,</hi>
+                  </l>
+                  <l>
+                     <hi>A Villain! never ſpare him.</hi>
+                  </l>
+                  <l>
+                     <hi>Zounds! That ſame Inſtrument is worſe</hi>
+                  </l>
+                  <l>
+                     <hi>Than Sword, and Gun, and every Curſe;</hi>
+                  </l>
+                  <l>
+                     <hi>And we've moſt cauſe to fear him,</hi>
+                  </l>
+                  <l>
+                     <hi>Since from his blaſts, thoſe wounds at firſt proceed,</hi>
+                  </l>
+                  <l>
+                     <hi>By which ſo many Thouſands of us bleed.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <head>MORAL.</head>
+                  <l>So crys an Author who has ſpent his ſpleen,</l>
+                  <l>VVhat harm can ſilly <hi>Fables</hi> mean?</l>
+                  <l>Or how can <hi>Faction</hi> takes its birth,</l>
+                  <l>From a few Tales, and unprovoking Mirth?</l>
+                  <l>They may perhaps delight,</l>
+                  <l>But reſt aſſur'd they'll never fight,</l>
+                  <l>The Beaſts I treat of cannot plot</l>
+                  <l>Or traffick in Sedition: what of that?</l>
+                  <pb n="12" facs="tcp:64422:10"/>
+                  <l>VVhen if he rail'd like <hi>O—ts,</hi> like <hi>S</hi>— fought,</l>
+                  <l>Curs'd like a Man at <hi>Sam</hi>'s, like <hi>M</hi>— thought,</l>
+                  <l>All join'd together ne'er was able</l>
+                  <l>To ſhew the malice of one ſingle Fable.</l>
+               </lg>
+            </div>
+            <div n="5" type="fable">
+               <head>
+                  <hi>FAB.</hi> V. Of the <hi>Apple</hi> and the <hi>Horſe-Turd.</hi>
+               </head>
+               <lg>
+                  <l>AN Apple falling from a Tree</l>
+                  <l>Which near a River ſtood,</l>
+                  <l>With Horſe-Turd in his Company</l>
+                  <l>Was ſailing down the Flood.</l>
+                  <l>When Turd ambitious to diſcourſe</l>
+                  <l>A thing ſo much above it,</l>
+                  <l>VVould into Converſation force</l>
+                  <l>As down the River drove it.</l>
+                  <l>
+                     <hi>Lord! Madam, what a pleaſant Stream</hi>
+                  </l>
+                  <l>
+                     <hi>Is this in which we ride?</hi>
+                  </l>
+                  <pb n="13" facs="tcp:64422:10"/>
+                  <l>
+                     <hi>Siſter! How we two Apples ſwim?</hi>
+                  </l>
+                  <l>The foul <hi>Sirrev'rence</hi> cry'd.</l>
+               </lg>
+               <lg>
+                  <head>MORAL.</head>
+                  <l>A Threadbare VVriter who per chance</l>
+                  <l>Has not one Farthing paid,</l>
+                  <l>To carry on the VVar with <hi>France,</hi>
+                  </l>
+                  <l>Towards the Royal Aid.</l>
+                  <l>Crys, Damn this curs'd confounded Peace,</l>
+                  <l>It Forty Millions coſt,</l>
+                  <l>And <hi>we</hi> could not procure <hi>our</hi> Eaſe</l>
+                  <l>Till All <hi>our</hi> VVealth was loſt.</l>
+               </lg>
+            </div>
+            <div n="6" type="fable">
+               <pb n="14" facs="tcp:64422:11"/>
+               <head>
+                  <hi>FAB.</hi> VI. Of the <hi>Covetous,</hi> and the <hi>Envious Man.</hi>
+               </head>
+               <lg>
+                  <l>TWO men to <hi>Jove</hi> their prayers made</l>
+                  <l>For ſome kind Earthly bleſſing,</l>
+                  <l>One never ſatisfy'd with what he had,</l>
+                  <l>Tho' rich beyond Expreſſing.</l>
+                  <l>Th' other was envious, nor car'd</l>
+                  <l>What miſchief e're befell Him,</l>
+                  <l>So that His Comrade was not Spar'd,</l>
+                  <l>And what ſhould kill Him, kill him:</l>
+                  <l>
+                     <hi>Jove</hi> Teaz'd with their Petitions, ſent</l>
+                  <l>His Son Apollo to 'em,</l>
+                  <l>To try to give 'em both content,</l>
+                  <l>And know what ſervice He could do 'em.</l>
+                  <l>
+                     <hi>Ask,</hi> ſaid <hi>Apollo, friends what e're</hi>
+                  </l>
+                  <l>
+                     <hi>You want th'out further trouble,</hi>
+                  </l>
+                  <pb n="15" facs="tcp:64422:11"/>
+                  <l>
+                     <hi>And what is ask'd from eithers pray'r</hi>
+                  </l>
+                  <l>
+                     <hi>T' other Shall bave it double.</hi>
+                  </l>
+                  <l>With that, the parſimonious Cuff,</l>
+                  <l>For Wealth did loudly call,</l>
+                  <l>Which downward fell, but ne'r enough</l>
+                  <l>For his deſires could fall.</l>
+                  <l>Still as he ask'd, the Riches came,</l>
+                  <l>And doubled on the other,</l>
+                  <l>Tho' Still his prayer was the ſame</l>
+                  <l>Which Still enrich'd his Brother,</l>
+                  <l>Next in his turn, Sir Envy kneel'd,</l>
+                  <l>And with a bale-ful Eye,</l>
+                  <l>
+                     <hi>Dear Phoebus to my prayer yield</hi>
+                  </l>
+                  <l>
+                     <hi>And Hearken to my cry,</hi>
+                  </l>
+                  <l>
+                     <hi>Now oh! just now thou Pow'r divine</hi>
+                  </l>
+                  <l>
+                     <hi>This favour let me find,</hi>
+                  </l>
+                  <l>
+                     <hi>Put out this ſingle Eye of mine,</hi>
+                  </l>
+                  <l>
+                     <hi>That his may both be blind<g ref="char:punc">▪</g>
+                     </hi>
+                  </l>
+               </lg>
+            </div>
+            <div n="7" type="fable">
+               <pb n="16" facs="tcp:64422:12"/>
+               <head>
+                  <hi>FAB.</hi> VII. Of the <hi>Beaver,</hi> and the <hi>Hunters.</hi>
+               </head>
+               <lg>
+                  <l>A Beaver being cloſe purſu'd</l>
+                  <l>By Hunters, Horſe, and Hounds;</l>
+                  <l>And neither ſafe, within the Wood</l>
+                  <l>Nor in the open Grounds</l>
+                  <l>'I know full well (and ſtep'd aſide)</l>
+                  <l>'The reaſons why I'm chas'd, he cry'd,</l>
+                  <l>'And much lament the Cauſe,</l>
+                  <l>'My Stones are what they want, and I</l>
+                  <l>'Muſt either part with them, or die</l>
+                  <l>'And glut the Beagles jaws:</l>
+                  <l>With that, though he was loath to part</l>
+                  <l>With things as precious as his heart,</l>
+                  <l>Or with a quiet mind</l>
+                  <l>Surrender up the pride of all his kind,</l>
+                  <l>Yet life was ſweet, and utt'ring forth ſome groans,</l>
+                  <pb n="17" facs="tcp:64422:12"/>
+                  <l>Off went his dear beloved Stones,</l>
+                  <l>Which in the Hunters way</l>
+                  <l>The Melancholy beaſt did lay,</l>
+                  <l>
+                     <hi>Call in the Hounds, the fierce purſuers ſaid,</hi>
+                  </l>
+                  <l>
+                     <hi>We've caught the game, and have our markets made;</hi>
+                  </l>
+                  <l>And taking up the Prize they went</l>
+                  <l>All homeward with content.</l>
+                  <l>Whilſt the Enervate beaſt return'd,</l>
+                  <l>To graze in quiet on the plain:</l>
+                  <l>And never after this misfortune mourn'd,</l>
+                  <l>Or fled from <hi>Hunters</hi> or from <hi>Hounds</hi> again.</l>
+               </lg>
+               <lg>
+                  <head>MORAL.</head>
+                  <l>If a certain great Prince, had but done as this Beaſt,</l>
+                  <l>And inſtead of each Stone gotten rid of each Prieſt,</l>
+                  <l>He had ſtill bin a King, whom his People had bleſs'd.</l>
+                  <l>But ſince He had rather keep in with <hi>Ned Petre</hi>
+                  </l>
+                  <pb n="18" facs="tcp:64422:13"/>
+                  <l>And likes Fryers, and Monks for his company fitter:</l>
+                  <l>Let him <hi>now</hi> keep his <hi>Stones,</hi> for there's <hi>none</hi> but has <hi>better.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div n="8" type="fable">
+               <head>
+                  <hi>FAB.</hi> VIII. The <hi>Lion</hi> and the <hi>Fox.</hi>
+               </head>
+               <lg>
+                  <l>A Fox, a Lyons Chaplain, when</l>
+                  <l>The Beaſts began to cry,</l>
+                  <l>And gather round their Monarchs Den</l>
+                  <l>For Antient <hi>Liberty;</hi>
+                  </l>
+                  <l>Said, <hi>may it pleaſe my ſov'raign Lord,</hi>
+                  </l>
+                  <l>
+                     <hi>Your Subjects are your Slaves,</hi>
+                  </l>
+                  <l>
+                     <hi>And if they dare to Speak a word,</hi>
+                  </l>
+                  <l>
+                     <hi>Your Throat may be their Graves.</hi>
+                  </l>
+                  <l>With that the Monarch Wiſely ſmil'd</l>
+                  <l>At good Sir Crapes advice,</l>
+                  <l>And ſaid, <hi>go fetch your youngeſt child,</hi>
+                  </l>
+                  <l>
+                     <hi>My Stomach's ſomething nice.</hi>
+                  </l>
+                  <pb n="19" facs="tcp:64422:13"/>
+                  <l>
+                     <hi>Sir,</hi> ſaid the Fox, <hi>You'r in the wrong,</hi>
+                  </l>
+                  <l>
+                     <hi>I muſt your pardon crave,</hi>
+                  </l>
+                  <l>
+                     <hi>Parſons alone to Jove belong,</hi>
+                  </l>
+                  <l>
+                     <hi>And no Controulers have.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <head>MORAL.</head>
+                  <l>So in late times the pulpits rung,</l>
+                  <l>With paſſive <hi>non reſiſtance,</hi>
+                  </l>
+                  <l>And all the burthen of their ſong</l>
+                  <l>Was <hi>Duty</hi> and Aſſiſtance:</l>
+                  <l>Life, Wealth, and every thing was due</l>
+                  <l>To Him, who or'e us rul'd,</l>
+                  <l>And VVhilſt that <hi>Cant</hi> they would purſue,</l>
+                  <l>VVe'd All of's E'en been fool'd,</l>
+                  <l>Had not their Churche's Lands been thought</l>
+                  <l>Belonging to the Throne:</l>
+                  <l>And made 'em change their former note,</l>
+                  <l>And what they, ſaid diſown.</l>
+               </lg>
+            </div>
+            <div n="9" type="fable">
+               <pb n="20" facs="tcp:64422:14"/>
+               <head>
+                  <hi>FAB.</hi> IX. Of <hi>Jupiter,</hi> and the <hi>Monkey.</hi>
+               </head>
+               <lg>
+                  <l>JOVE was deſirous once to know</l>
+                  <l>VVhat Animal did bear</l>
+                  <l>The handſom'ſt <hi>off-ſpring,</hi> or could ſhow</l>
+                  <l>A <hi>little one</hi> moſt fair.</l>
+                  <l>He ſummon'd every living thing</l>
+                  <l>Unto a certain place,</l>
+                  <l>To come before him, and to bring</l>
+                  <l>A Pattern of it's Race.</l>
+                  <l>Forthwith each female creature came,</l>
+                  <l>VVhich Air, or Sea, or Earth,</l>
+                  <l>Could for it's proper Tenant claim,</l>
+                  <l>And each produc'd a Sample of it's <hi>birth.</hi>
+                  </l>
+                  <l>When as the Pow'rful God was juſt</l>
+                  <l>Deciding the diſpute,</l>
+                  <pb n="21" facs="tcp:64422:14"/>
+                  <l>Up to the Throne a <hi>Monkey</hi> thruſt,</l>
+                  <l>A moſt deformed Brute!</l>
+                  <l>And with her <hi>Young one</hi> in her hand</l>
+                  <l>(VVhilſt All the company ſmil'd)</l>
+                  <l>'Vouchſafe great Jove to underſtand</l>
+                  <l>'Mine is the Fineſt <hi>child:</hi>
+                  </l>
+                  <l>'Pleaſe you my Liege to view this face,</l>
+                  <l>'How regular and ſweet!</l>
+                  <l>'How well proportion'd every grace!</l>
+                  <l>'And how exact the features meet!</l>
+                  <l>'Surely my Lord can ne're refuſe</l>
+                  <l>'My <hi>Child</hi> and <hi>Me</hi> the Bays.</l>
+                  <l>VVhen Jove for laughing could not <hi>chooſe:</hi>
+                  </l>
+                  <l>And all of 'em went their ways.</l>
+               </lg>
+               <pb n="22" facs="tcp:64422:15"/>
+               <lg>
+                  <head>MORAL.</head>
+                  <l>So <hi>young</hi> Aeſop from <hi>Bath,</hi> or <hi>Old</hi> Aeſop from <hi>Whitehall,</hi>
+                  </l>
+                  <l>May amuſe <hi>Town,</hi> and <hi>Country</hi> with a fab'lous recital,</l>
+                  <l>And in love with themſelves think their own things <hi>the beſt,</hi>
+                  </l>
+                  <l>Whilſt the <hi>Clergy,</hi> they laugh at, eſcape the dull <hi>Jeſt:</hi>
+                  </l>
+                  <l>And all the ſucceſs of each Fable and ſtory</l>
+                  <l>Is to lay down their <hi>own</hi> faults like the <hi>Monkey</hi> before ye.</l>
+               </lg>
+            </div>
+            <div n="10" type="fable">
+               <head>
+                  <hi>FAB.</hi> X. Of the <hi>Hares,</hi> and the <hi>Frogs.</hi>
+               </head>
+               <lg>
+                  <l>A Time was fix'd when Hares ſhould meet,</l>
+                  <l>And for <hi>diſpatch of Buſineſs ſit,</hi>
+                  </l>
+                  <l>Without the leaſt delays,</l>
+                  <pb n="23" facs="tcp:64422:15"/>
+                  <l>To remedy their preſent State,</l>
+                  <l>Or elſe anticipate their Fate</l>
+                  <l>By proper <hi>means</hi> and <hi>ways.</hi>
+                  </l>
+                  <l>Strait every Puſs the <hi>Form</hi> forſook,</l>
+                  <l>Which He or She for ſhelter took,</l>
+                  <l>And haſten'd to the place</l>
+                  <l>Which by appointment was deſign'd,</l>
+                  <l>To heal the miſchiefs of their <hi>Kind,</hi>
+                  </l>
+                  <l>Or make extinct their <hi>Race.</hi>
+                  </l>
+                  <l>The SPEAKER choſe, and <hi>Members</hi> plac'd,</l>
+                  <l>The Houſe reſolv'd it ſelf at laſt</l>
+                  <l>Into a grand Committee:</l>
+                  <l>But what a pother, Lord! they kept?</l>
+                  <l>One ſigh'd, another trembling wept,</l>
+                  <l>'Twould move us all to pity.</l>
+                  <l>At length a <hi>Chief</hi> of high Renown,</l>
+                  <l>And <hi>Ranger</hi> of ſome mighty <hi>Down,</hi>
+                  </l>
+                  <l>Firſt ask'd the Houſe's leave:</l>
+                  <pb n="24" facs="tcp:64422:16"/>
+                  <l>And then ſtood up, whilſt all the reſt</l>
+                  <l>With ſorrows, and with grief oppreſs'd</l>
+                  <l>Could nothing elſe but grieve.</l>
+                  <l>'Brethren, <hi>ſaid he,</hi> a wretched Race,</l>
+                  <l>'Whom Men, and Dogs, and Eagles chaſe,</l>
+                  <l>'The Sport of the Creation,</l>
+                  <l>'In vain we're thinking to redreſs</l>
+                  <l>'Our Grievances, or make 'em leſs,</l>
+                  <l>'While in this living Station.</l>
+                  <l>'Hounds will for ever be purſuing,</l>
+                  <l>'And Hunters meditating ruine,</l>
+                  <l>'Whilſt we muſt ſtill be flying;</l>
+                  <l>'We'd better (Friends) if I might give</l>
+                  <l>'Advice, this moment ceaſe to live,</l>
+                  <l>'Than always be a dying.</l>
+                  <l>Tho' <hi>Death</hi> is not a thing which ſuits</l>
+                  <l>With conſtitutions of ſuch <hi>Brutes</hi>
+                  </l>
+                  <pb n="25" facs="tcp:64422:16"/>
+                  <l>As <hi>Hares</hi> are of, 'tis certain:</l>
+                  <l>Yet they reſolv'd, with much ado,</l>
+                  <l>To bid the <hi>Groves,</hi> and <hi>Hills</hi> adieu,</l>
+                  <l>Tho' not 'thout tears at parting.</l>
+                  <l>By chance there was a River near</l>
+                  <l>The place, where theſe <hi>Aſſemblers</hi> were</l>
+                  <l>Debating how to die,</l>
+                  <l>Wherefore to put off all delays,</l>
+                  <l>They fix'd in that to end their days</l>
+                  <l>The ſooner, 'cauſe ſo nigh.</l>
+                  <l>But Lord! how Puſs would backward ſhrink,</l>
+                  <l>When almoſt at the very brink,</l>
+                  <l>And ſigh ſhe was ſo near!</l>
+                  <l>Then tell her <hi>Beads,</hi> and wiſh ſome <hi>Saint</hi>
+                  </l>
+                  <l>Would help her from this damn'd reſtraint,</l>
+                  <l>And eaſe her of her fear!</l>
+                  <l>At laſt the leading Hares were come,</l>
+                  <pb n="26" facs="tcp:64422:17"/>
+                  <l>Prepar'd and ready for their Doom,</l>
+                  <l>And at the Flood arriving,</l>
+                  <l>A Frog or two into it skip'd,</l>
+                  <l>Which made 'em look before they leap'd,</l>
+                  <l>And think of longer living.</l>
+                  <l>'Hark ye, (ſaid Puſs who bore the ſway)</l>
+                  <l>'Fair and ſoftly wins the Day,</l>
+                  <l>'There's no ſuch need to die yet,</l>
+                  <l>'I'll Home again, and e'en ſubmit</l>
+                  <l>'To what my Deſtiny thinks fit,</l>
+                  <l>'And keep my Form in quiet.</l>
+                  <l>'Troth Sirs, the fate of <hi>Frogs</hi> is worſe</l>
+                  <l>'Than <hi>ours,</hi> which we at preſent curſe,</l>
+                  <l>'And are ſo much afraid at:</l>
+                  <l>'For we who fear moſt things beſide</l>
+                  <l>'Are fear'd by them, and that's my Pride</l>
+                  <l>'Since theſe are us diſmay'd at.</l>
+                  <pb n="27" facs="tcp:64422:17"/>
+                  <l>'Sirs, it would be a pretty Jeſt</l>
+                  <l>'If ſince our life is not the beſt</l>
+                  <l>'It ſhould be made our loathing.</l>
+                  <l>'Faith, tho' I cannot be the <hi>Chief,</hi>
+                  </l>
+                  <l>'I have this comfort and relief,</l>
+                  <l>'I'm <hi>better far than nothing.</hi>
+                  </l>
+               </lg>
+               <pb n="28" facs="tcp:64422:18"/>
+               <lg>
+                  <head>MORAL.</head>
+                  <l>Hence let the Male-contented mind</l>
+                  <l>Inſtructive Leſſons draw;</l>
+                  <l>Nor be uneaſy, when confin'd</l>
+                  <l>Within the bounds of Law.</l>
+                  <l>What tho' his Purſe is ſomething drein'd,</l>
+                  <l>For Peace he ne'er deſir'd,</l>
+                  <l>And has in part that Prince maintain'd</l>
+                  <l>Who might have all requir'd?</l>
+                  <l>A Neighb'ring King's <hi>beſt</hi> Subjects paid</l>
+                  <l>Thrice more than <hi>William</hi>'s worſt,</l>
+                  <pb n="29" facs="tcp:64422:18"/>
+                  <l>And without Mony Laws obey'd,</l>
+                  <l>When His with <hi>Mony</hi> curs'd.</l>
+                  <l>If therefore He like <hi>Hare</hi> ſhould grieve</l>
+                  <l>Since ſmall reſpect we ſhow Him,</l>
+                  <l>Like <hi>Hare</hi> in Fable let Him live,</l>
+                  <l>Since He has <hi>Frogs</hi> below Him.</l>
+               </lg>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
